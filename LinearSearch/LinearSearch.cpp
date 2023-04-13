@@ -34,7 +34,7 @@ void input()
 void LinearSearch()
 {
 	char ch;
-	int cth; // Number OF Comparisons
+	int ctr; // Number OF Comparisons
 	do
 	{
 		// accpt the number to be searched
@@ -42,6 +42,16 @@ void LinearSearch()
 		int item;
 		cin >> item;
 
+		ctr = 0;
+		for ( i = 0; i < n; i++)            // langkah no 2 & 3 & 4
+		{
+			ctr++; 
+			if (arr[i] == item)            // Langkag No 5 Algoritma
+			{ 
+				cout << "\n" << item << " found at position " << (i + i) << endl;
+				break;
+			}
+		}
 	} while (true);
 }
 
