@@ -28,3 +28,11 @@ void input()
 		cin >> arr[i];
 	}
 }
+
+
+
+void LinearSearch()
+{
+	char ch;
+	int cth; // Number OF Comparisons
+}
