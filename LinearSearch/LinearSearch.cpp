@@ -35,4 +35,13 @@ void LinearSearch()
 {
 	char ch;
 	int cth; // Number OF Comparisons
+	do
+	{
+		// accpt the number to be searched
+		cout << "\nEnter the elemnt you wnt to search: "; //Langkah no 1 algoritma
+		int item;
+		cin >> item;
+
+	} while (true);
 }
+
